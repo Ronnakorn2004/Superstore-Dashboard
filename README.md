@@ -253,3 +253,9 @@ This project demonstrates my ability to work across the full analytics pipeline:
 - Trend analysis
 
 - Executing realistic BI workflows
+
+---
+
+## 9.) 📸Screenshots
+Show what the dashboard look like. - ![Dashboard Preview](https://github.com/BossSu01/Churn-Dashboard/blob/main/messageImage_1762956129659.jpg)
+
