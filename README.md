@@ -25,7 +25,7 @@ My goal was to simulate the real-world responsibilities of a Data Analyst / BI A
 
 ---
 
-## 2. Cleaning & Enriching the Data with Python
+## 2.) Cleaning & Enriching the Data with Python
 Using pandas, I performed initial EDA and data preparation.
 
 **Key steps I completed:**
@@ -34,7 +34,7 @@ Using pandas, I performed initial EDA and data preparation.
 
 ✔ Checked column types, missing values, and duplicates
 
-✔ Converted Order Date and Ship Date into proper datetime format
+✔ Converted **Order Date** and **Ship Date** into proper datetime format
 
 ✔ Created new analytical features:
 - OrderYear
@@ -50,3 +50,30 @@ The goal was to produce a dataset that Power BI could use immediately with minim
 
 **The cleaned dataset was exported as:**
 👉 superstore_clean.csv
+
+---
+
+## 3.) Building Analytical Views with SQL (SQLite)
+
+To extend the analysis further and practice SQL, I loaded the cleaned dataset into a SQLite database.
+
+I created a **fact_sales** table and built analytical SQL views such as:
+
+- Monthly Sales View
+
+- Sales by Region & Category
+
+- Customer Lifetime (basic version)
+
+Example query:
+
+SELECT "Product Name",
+       SUM(Sales) AS total_sales,
+       SUM(Profit) AS total_profit
+FROM fact_sales
+GROUP BY "Product Name"
+ORDER BY total_sales DESC
+LIMIT 10;
+
+
+This step helped validate the cleaned data and created aggregated tables for both EDA and Power BI.
