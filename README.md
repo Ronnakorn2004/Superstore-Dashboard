@@ -128,23 +128,18 @@ Average Order Value = DIVIDE([Total Sales], [Total Orders])
 ```
 
 **📌 Time Intelligence**
-<br>
-<br>
+
+```DAX
 Sales LY =
-<br>
 CALCULATE(
-<br>
-<br><br>[Total Sales],
-    <br>
-<br><br>DATEADD(Dim_Date[StartOfMonth], -1, YEAR)
-      <br>
-      )
-<br>
-<br>
-<br>
--- Sales YoY % = DIVIDE([Total Sales] - [Sales LY], [Sales LY])
-<br>
-<br>
+    [Total Sales],
+    DATEADD(Dim_Date[StartOfMonth], -1, YEAR)
+)
+
+Sales YoY % =
+DIVIDE([Total Sales] - [Sales LY], [Sales LY])
+```
+
 These measures allowed me to build dynamic KPIs, YoY comparisons, and historical trends.
 
 ---
