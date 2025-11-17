@@ -30,14 +30,19 @@ Using pandas, I performed initial EDA and data preparation.
 **Key steps I completed:**
 
 ✔ Loaded the raw CSV from Google Drive
+
 ✔ Checked column types, missing values, and duplicates
+
 ✔ Converted Order Date and Ship Date into proper datetime format
+
 ✔ Created new analytical features:
 - OrderYear
 - OrderMonth
 - OrderQuarter
 - StartOfMonth (for time intelligence in Power BI)
+
 ✔ Calculated ProfitMargin with outlier handling
+
 ✔ Verified distributions for Sales and Profit
 
 The goal was to produce a dataset that Power BI could use immediately with minimal additional cleaning.
