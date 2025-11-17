@@ -65,7 +65,7 @@ I created a **fact_sales** table and built analytical SQL views such as:
 
 - Customer Lifetime (basic version)
 
-Example query:
+**Example query:**
 
 SELECT "Product Name",
 
