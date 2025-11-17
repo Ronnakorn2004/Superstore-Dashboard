@@ -149,8 +149,7 @@ CALCULATE(
     [Total Sales],
     
     DATEADD(Dim_Date[StartOfMonth], -1, YEAR))
-
--- 
+_
 
 -- Sales YoY % =
 DIVIDE([Total Sales] - [Sales LY], [Sales LY])
@@ -220,3 +219,6 @@ The goal was to create a dashboard that is visually appealing and easy to unders
 
 ---
 
+d
+<br>
+d
