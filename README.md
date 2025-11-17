@@ -141,13 +141,13 @@ Average Order Value =
 DIVIDE([Total Sales], [Total Orders])
 
 **📌 Time Intelligence**
-
+<br>
 -- Sales LY =
-
+<br>
 CALCULATE(
-
+<br>
     [Total Sales],
-    
+    <br>
     DATEADD(Dim_Date[StartOfMonth], -1, YEAR))
 <br>
 <br>
