@@ -117,24 +117,15 @@ To analyze sales trends and performance, I created a set of DAX measures includi
 
 ```DAX
 Total Sales = SUM(fact_sales[Sales])
-```
-<br>
-```DAX
+
 Total Profit = SUM(fact_sales[Profit])
-```
-<br>
-```DAX
+
 Total Orders = DISTINCTCOUNT(fact_sales[Order ID])
-```
-<br>
-```DAX
+
 Profit Margin % = DIVIDE([Total Profit], [Total Sales])
-```
-<br>
-```DAX
+
 Average Order Value = DIVIDE([Total Sales], [Total Orders])
 ```
-<br>
 
 **📌 Time Intelligence**
 <br>
