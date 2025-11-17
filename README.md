@@ -85,7 +85,7 @@ This step helped validate the cleaned data and created aggregated tables for bot
 
 ## 4.) Data Modeling in Power BI
 
-I imported **superstore_clean.csv** into Power BI.
+I imported **superstore_clean.csv** into Power BI and structured the model following a **Star Schema**.
 
 **I built:**
 
@@ -102,7 +102,7 @@ I imported **superstore_clean.csv** into Power BI.
 - StartOfMonth (link to fact table)
 
 **Relationship:**
-fact_sales[StartOfMonth] → Dim_Date[StartOfMonth]
+fact_sales[StartOfMonth] → * Dim_Date[StartOfMonth]
 
 
 This enables powerful **time intelligence** functions using DAX.
@@ -222,3 +222,34 @@ These insights can help guide decisions on pricing, promotions, and inventory ma
 
 ---
 
+## 8.) Skills Demonstrated in This Project
+
+This project demonstrates my ability to work across the full analytics pipeline:
+
+**Technical Skills**
+
+- Python (pandas, matplotlib)
+
+- SQL (SQLite, aggregations, views)
+
+- Power BI
+
+- Data Modeling (Star Schema)
+
+- DAX (KPIs, Time Intelligence)
+
+- Data Visualization & Storytelling
+
+- ETL / Data Cleaning
+
+**Business Skills**
+
+- Understanding product profitability
+
+- Identifying revenue drivers
+
+- Recognizing negative-margin products
+
+- Trend analysis
+
+- Executing realistic BI workflows
