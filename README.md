@@ -142,13 +142,14 @@ DIVIDE([Total Sales], [Total Orders])
 
 **📌 Time Intelligence**
 <br>
+<br>
 -- Sales LY =
 <br>
-   CALCULATE(
+<br>CALCULATE(
 <br>
-      [Total Sales],
+<br><br>[Total Sales],
     <br>
-      DATEADD(Dim_Date[StartOfMonth], -1, YEAR)
+<br><br>DATEADD(Dim_Date[StartOfMonth], -1, YEAR)
       <br>
       )
 <br>
