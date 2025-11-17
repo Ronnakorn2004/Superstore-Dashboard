@@ -204,13 +204,21 @@ The goal was to create a dashboard that is visually appealing and easy to unders
 
 ---
 
-```DAX
-Sales LY =
-CALCULATE(
-    [Total Sales],
-    DATEADD(Dim_Date[StartOfMonth], -1, YEAR)
-)
+## 7.) Key Business Insights
 
-Sales YoY % =
-DIVIDE([Total Sales] - [Sales LY], [Sales LY])
-```
+Here are some insights I discovered:
+
+- Technology is the highest-selling category.
+
+- Some Furniture items consistently generate negative profit, signaling pricing/cost issues.
+
+- Consumer segment is the most profitable customer segment.
+
+- Sales show a noticeable seasonal trend.
+
+- Certain SKUs dominate total revenue, while others drive most losses (important for inventory decisions).
+
+These insights can help guide decisions on pricing, promotions, and inventory management.
+
+---
+
