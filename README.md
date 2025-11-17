@@ -68,11 +68,17 @@ I created a **fact_sales** table and built analytical SQL views such as:
 Example query:
 
 SELECT "Product Name",
+
        SUM(Sales) AS total_sales,
+       
        SUM(Profit) AS total_profit
+       
 FROM fact_sales
+
 GROUP BY "Product Name"
+
 ORDER BY total_sales DESC
+
 LIMIT 10;
 
 
