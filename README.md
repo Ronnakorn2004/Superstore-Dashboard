@@ -133,11 +133,8 @@ Average Order Value = DIVIDE([Total Sales], [Total Orders])
 **📌 Time Intelligence**
 
 Sales LY =
-
 CALCULATE(
-
     [Total Sales],
-    
     DATEADD(Dim_Date[StartOfMonth], -1, YEAR)
     )
 Sales YoY % =
