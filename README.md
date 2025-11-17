@@ -259,3 +259,4 @@ This project demonstrates my ability to work across the full analytics pipeline:
 ## 9.) 📸Screenshots
 Show what the dashboard look like. - ![Dashboard Preview](https://github.com/Ronnakorn2004/Superstore-Dashboard/blob/main/messageImage_1763166209957.jpg).
 
+---
