@@ -115,25 +115,26 @@ To analyze sales trends and performance, I created a set of DAX measures includi
 
 **📌 Core KPIs**
 
--- Total Sales
-Total Sales =
-SUM(fact_sales[Sales])
-
--- Total Profit
-Total Profit =
-SUM(fact_sales[Profit])
-
--- Total Orders
-Total Orders =
-DISTINCTCOUNT(fact_sales[Order ID])
-
--- Profit Margin %
-Profit Margin % =
-DIVIDE([Total Profit], [Total Sales])
-
--- Average Order Value
-Average Order Value =
-DIVIDE([Total Sales], [Total Orders])
+```DAX
+Total Sales = SUM(fact_sales[Sales])
+```
+<br>
+```DAX
+Total Profit = SUM(fact_sales[Profit])
+```
+<br>
+```DAX
+Total Orders = DISTINCTCOUNT(fact_sales[Order ID])
+```
+<br>
+```DAX
+Profit Margin % = DIVIDE([Total Profit], [Total Sales])
+```
+<br>
+```DAX
+Average Order Value = DIVIDE([Total Sales], [Total Orders])
+```
+<br>
 
 **📌 Time Intelligence**
 <br>
