@@ -150,10 +150,8 @@ CALCULATE(
     
     DATEADD(Dim_Date[StartOfMonth], -1, YEAR))
 
-
-
-
-
+--
+--
 
 -- Sales YoY % =
 DIVIDE([Total Sales] - [Sales LY], [Sales LY])
