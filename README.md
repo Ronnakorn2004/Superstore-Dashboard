@@ -143,9 +143,9 @@ DIVIDE([Total Sales], [Total Orders])
 **📌 Time Intelligence**
 <br>
 <br>
--- Sales LY =
+Sales LY =
 <br>
-<br>CALCULATE(
+CALCULATE(
 <br>
 <br><br>[Total Sales],
     <br>
@@ -155,8 +155,7 @@ DIVIDE([Total Sales], [Total Orders])
 <br>
 <br>
 <br>
--- Sales YoY % =
-DIVIDE([Total Sales] - [Sales LY], [Sales LY])
+-- Sales YoY % = DIVIDE([Total Sales] - [Sales LY], [Sales LY])
 <br>
 <br>
 These measures allowed me to build dynamic KPIs, YoY comparisons, and historical trends.
