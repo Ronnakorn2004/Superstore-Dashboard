@@ -85,3 +85,29 @@ LIMIT 10;
 
 
 This step helped validate the cleaned data and created aggregated tables for both EDA and Power BI.
+
+---
+
+## 4.) Data Modeling in Power BI
+
+I imported **superstore_clean.csv** into Power BI.
+
+**I built:**
+
+- A Fact Table **(fact_sales)**
+
+- A Date Dimension **(Dim_Date)** generated through Power Query, including:
+
+- Year
+
+- Month
+
+- Quarter
+
+- StartOfMonth (link to fact table)
+
+**Relationship:**
+fact_sales[StartOfMonth] → Dim_Date[StartOfMonth]
+
+
+This enables powerful time intelligence functions using DAX.
