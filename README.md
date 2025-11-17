@@ -154,8 +154,7 @@ CALCULATE(
 <br>
 -- Sales YoY % =
 DIVIDE([Total Sales] - [Sales LY], [Sales LY])
-
-
+<br>
 These measures allowed me to build dynamic KPIs, YoY comparisons, and historical trends.
 
 ---
