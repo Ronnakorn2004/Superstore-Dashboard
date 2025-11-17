@@ -142,7 +142,7 @@ DIVIDE([Total Sales], [Total Orders])
 
 **📌 Time Intelligence**
 
-Sales LY =
+-- Sales LY =
 
 CALCULATE(
 
@@ -153,8 +153,7 @@ CALCULATE(
 )
 
 
-Sales YoY % =
-
+-- Sales YoY % =
 DIVIDE([Total Sales] - [Sales LY], [Sales LY])
 
 
