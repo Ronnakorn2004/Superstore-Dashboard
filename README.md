@@ -27,6 +27,7 @@ My goal was to simulate the real-world responsibilities of a Data Analyst / BI A
 
 ## 2. Cleaning & Enriching the Data with Python
 Using pandas, I performed initial EDA and data preparation.
+
 **Key steps I completed:**
 
 ✔ Loaded the raw CSV from Google Drive
