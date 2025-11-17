@@ -110,4 +110,40 @@ I imported **superstore_clean.csv** into Power BI.
 fact_sales[StartOfMonth] → Dim_Date[StartOfMonth]
 
 
-This enables powerful time intelligence functions using DAX.
+This enables powerful **time intelligence** functions using DAX.
+
+---
+
+## 5.) Creating DAX Measures (KPI + Time Intelligence)
+
+To analyze sales trends and performance, I created a set of DAX measures including:
+
+**📌 Core KPIs**
+
+Total Sales = SUM(fact_sales[Sales])
+
+Total Profit = SUM(fact_sales[Profit])
+
+Total Orders = DISTINCTCOUNT(fact_sales[Order ID])
+
+Profit Margin % = DIVIDE([Total Profit], [Total Sales])
+
+Average Order Value = DIVIDE([Total Sales], [Total Orders])
+
+**📌 Time Intelligence**
+
+Sales LY =
+
+CALCULATE(
+
+    [Total Sales],
+    
+    DATEADD(Dim_Date[StartOfMonth], -1, YEAR)
+    
+)
+
+Sales YoY % =
+
+DIVIDE([Total Sales] - [Sales LY], [Sales LY])
+
+These measures allowed me to build dynamic KPIs, YoY comparisons, and historical trends.
