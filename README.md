@@ -222,6 +222,13 @@ The goal was to create a dashboard that is visually appealing and easy to unders
 
 ---
 
-d
-<br>
-d
+```DAX
+Sales LY =
+CALCULATE(
+    [Total Sales],
+    DATEADD(Dim_Date[StartOfMonth], -1, YEAR)
+)
+
+Sales YoY % =
+DIVIDE([Total Sales] - [Sales LY], [Sales LY])
+```
