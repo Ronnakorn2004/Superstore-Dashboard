@@ -1,7 +1,7 @@
 # Superstore-Dashboard
 ## 📝 Superstore Analytics — Project Story (English Version)
 This project is an end-to-end Business Intelligence workflow where I worked through the entire process:
-data cleaning → transformation → SQL modeling → analysis → DAX measures → dashboard design in Power BI.
+**data cleaning** → **transformation** → **SQL modeling** → **analysis** → **DAX measures** → **dashboard design in Power BI.**
 My goal was to simulate the real-world responsibilities of a Data Analyst / BI Analyst and produce a dashboard that communicates clear, actionable business insight.
 
 ---
