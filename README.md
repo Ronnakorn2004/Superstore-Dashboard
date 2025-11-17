@@ -149,3 +149,63 @@ DIVIDE([Total Sales] - [Sales LY], [Sales LY])
 
 
 These measures allowed me to build dynamic KPIs, YoY comparisons, and historical trends.
+
+---
+
+## 6.) Designing an Interactive Power BI Dashboard
+
+This is where everything comes together.
+
+I designed a modern, clean, and interactive dashboard with:
+
+**⭐ KPI Cards**
+
+- Total Sales
+
+- Total Profit
+
+- Total Orders
+
+- Profit Margin
+
+- Sales YoY %
+
+- Monthly KPI indicator
+
+**⭐ Visuals**
+
+- Sales by Category (Donut)
+
+- Sales by Sub-Category (Bar)
+
+- Top 10 Most Profitable Products
+
+- Top 10 Most Unprofitable Products
+
+- Profit by Customer Segment
+
+- Month-over-Month Sales Trend (Sales vs Last Year)
+
+**⭐ Interactive Filters**
+
+- Year
+
+- Quarter
+
+- Region
+
+- Category
+
+**⭐ UI/UX Enhancements**
+
+- Purple gradient theme
+
+- Rounded cards
+
+- Soft shadows
+
+- Minimalist icons
+
+- Clean layout with clear hierarchy
+
+The goal was to create a dashboard that is visually appealing and easy to understand for business stakeholders.
