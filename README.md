@@ -144,11 +144,13 @@ DIVIDE([Total Sales], [Total Orders])
 <br>
 -- Sales LY =
 <br>
-CALCULATE(
+   CALCULATE(
 <br>
-    [Total Sales],
+      [Total Sales],
     <br>
-    DATEADD(Dim_Date[StartOfMonth], -1, YEAR))
+      DATEADD(Dim_Date[StartOfMonth], -1, YEAR)
+      <br>
+      )
 <br>
 <br>
 <br>
