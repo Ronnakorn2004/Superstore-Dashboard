@@ -216,3 +216,8 @@ I designed a modern, clean, and interactive dashboard with:
 - Clean layout with clear hierarchy
 
 The goal was to create a dashboard that is visually appealing and easy to understand for business stakeholders.
+
+---
+
+p␣␣
+d
