@@ -149,8 +149,9 @@ CALCULATE(
     [Total Sales],
     
     DATEADD(Dim_Date[StartOfMonth], -1, YEAR))
-_
-
+<br>
+<br>
+<br>
 -- Sales YoY % =
 DIVIDE([Total Sales] - [Sales LY], [Sales LY])
 
